@@ -1,0 +1,3 @@
+import{ArrowUpRight}from'lucide-react';
+// Question 5: Reusable ServiceCard
+export default function ServiceCard({icon:Icon,title,description}){return <article className="glass group rounded-3xl p-6 transition hover:-translate-y-2 hover:border-cyan-400/40"><div className="mb-6 flex justify-between"><span className="grid h-14 w-14 place-items-center rounded-2xl bg-cyan-400/10 text-cyan-300"><Icon/></span><ArrowUpRight className="text-slate-500 group-hover:text-cyan-300"/></div><h3 className="mb-3 text-xl font-bold text-white">{title}</h3><p className="leading-7 text-slate-400">{description}</p></article>}
